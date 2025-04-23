@@ -298,7 +298,7 @@ Stealthwright provides a similar API to Playwright but with enhanced detection a
 const { chromium } = require('playwright');
 const browser = await chromium.launch();
 
-// BackStage:
+// stealthwright:
 const { stealthwright } = require('stealthwright');
 const browser = await stealthwright().launch();
 
