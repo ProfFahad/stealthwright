@@ -1,0 +1,30 @@
+{
+    "name": "backstage",
+    "version": "1.0.0",
+    "description": "Chrome DevTools Protocol automation library with Playwright-like API, designed for improved detection avoidance",
+    "main": "index.js",
+    "keywords": [
+        "automation",
+        "undetected",
+        "browser",
+        "chrome",
+        "headless",
+        "playwright",
+        "puppeteer",
+        "cdp"
+    ],
+    "author": "Amel B",
+    "license": "MIT",
+    "dependencies": {
+        "fs-extra": "^11.3.0",
+        "rimraf": "^5.0.10",
+        "uuid": "^9.0.1",
+        "ws": "^8.18.1"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "scripts": {
+        "test:basic": "node examples/basic-test.js"
+    }
+}
